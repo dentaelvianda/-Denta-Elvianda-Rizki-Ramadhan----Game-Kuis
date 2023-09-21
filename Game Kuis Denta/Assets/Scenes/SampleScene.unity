@@ -1357,7 +1357,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &571232573
 MonoBehaviour:
@@ -1717,7 +1717,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &916399210
 MonoBehaviour:
@@ -1935,31 +1935,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0629483d43f86b4cb7faa392cb04f14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _soalSoal:
-  - hint: {fileID: 21300000, guid: dece87f841d77bc439748192277503fc, type: 3}
-    pertanyaan: Warna dari Mawar?
-    jawabanTeks:
-    - Merah
-    - Biru
-    - Hijau
-    - Kuning
-    adalahBenar: 01000000
-  - hint: {fileID: 21300000, guid: d95afa79dd4c03144ab81ed6910a548b, type: 3}
-    pertanyaan: Warna dari Langit?
-    jawabanTeks:
-    - Merah
-    - Biru
-    - Hijau
-    - Kuning
-    adalahBenar: 00010000
-  - hint: {fileID: 21300000, guid: 4ba1698c22bc9314e8b131d4e381855f, type: 3}
-    pertanyaan: Warna dari Daun
-    jawabanTeks:
-    - Merah
-    - Biru
-    - Hijau
-    - Kuning
-    adalahBenar: 00000100
+  _playerProgress: {fileID: 11400000, guid: 434984cbe7e270f43b11733f5f6fad39, type: 2}
+  _soalSoal: {fileID: 11400000, guid: cc5332e103821b649827f9a7e733d028, type: 2}
   _tempatPertanyaan: {fileID: 904196975}
   _tempatPilihanJawaban:
   - {fileID: 1224952540}
@@ -2416,7 +2393,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1224952538
 MonoBehaviour:
@@ -2678,7 +2655,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1244782239
 MonoBehaviour:
